@@ -1,0 +1,29 @@
+# Dependencias
+node_modules/
+jspm_packages/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Cache y build
+.cache/
+dist/
+build/
+coverage/
+.parcel-cache/
+
+# Variables de entorno
+.env
+.env.local
+.env.*.local
+
+# Editor y sistema operativo
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
